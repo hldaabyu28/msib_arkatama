@@ -92,7 +92,7 @@ class _PenumpangPageState extends State<PenumpangPage> {
           child: Column(
             children: [
               TextFormField(
-                   decoration: InputDecoration(
+                  decoration: InputDecoration(
                   hintText: 'NAMA USIA KOTA',
                   hintStyle: TextStyle(
                     color: Colors.white.withOpacity(0.6),

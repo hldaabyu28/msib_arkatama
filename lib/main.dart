@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:msib_arkatama/screens/Travel_screen.dart';
+import 'package:msib_arkatama/screens/travel_screen.dart';
 import 'package:msib_arkatama/screens/main_screen.dart';
 import 'package:msib_arkatama/screens/penumpang_list.dart';
 import 'package:msib_arkatama/screens/penumpang_screen.dart';
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: PenumpangListPage(),
+      home: TravelPage(),
     );
   }
 }
